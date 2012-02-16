@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00175B3E14ECA39100428452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175B3D14ECA39100428452 /* UIKit.framework */; };
+		00175B4014ECA39100428452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175B3F14ECA39100428452 /* Foundation.framework */; };
+		00175B4214ECA39100428452 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175B4114ECA39100428452 /* CoreGraphics.framework */; };
+		00175B4414ECA39100428452 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175B4314ECA39100428452 /* CoreData.framework */; };
+		00175B4A14ECA39100428452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00175B4814ECA39100428452 /* InfoPlist.strings */; };
+		00175B4C14ECA39100428452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00175B4B14ECA39100428452 /* main.m */; };
+		00175B5014ECA39100428452 /* PinchPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00175B4F14ECA39100428452 /* PinchPadAppDelegate.m */; };
+		00175B5314ECA39100428452 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00175B5114ECA39100428452 /* MainStoryboard.storyboard */; };
+		00175B5614ECA39100428452 /* PinchPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00175B5414ECA39100428452 /* PinchPad.xcdatamodeld */; };
+		00175B5914ECA39100428452 /* PinchPadMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00175B5814ECA39100428452 /* PinchPadMainViewController.m */; };
+		00175B5C14ECA39100428452 /* PinchPadFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00175B5B14ECA39100428452 /* PinchPadFlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00175B3914ECA39100428452 /* PinchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00175B3D14ECA39100428452 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00175B3F14ECA39100428452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00175B4114ECA39100428452 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00175B4314ECA39100428452 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00175B4714ECA39100428452 /* PinchPad-Info.plist */ = {isa = PBXFileReference; path = "PinchPad-Info.plist"; sourceTree = "<group>"; };
+		00175B4914ECA39100428452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00175B4B14ECA39100428452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00175B4D14ECA39100428452 /* PinchPad-Prefix.pch */ = {isa = PBXFileReference; path = "PinchPad-Prefix.pch"; sourceTree = "<group>"; };
+		00175B4E14ECA39100428452 /* PinchPadAppDelegate.h */ = {isa = PBXFileReference; path = PinchPadAppDelegate.h; sourceTree = "<group>"; };
+		00175B4F14ECA39100428452 /* PinchPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchPadAppDelegate.m; sourceTree = "<group>"; };
+		00175B5214ECA39100428452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		00175B5514ECA39100428452 /* PinchPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinchPad.xcdatamodel; sourceTree = "<group>"; };
+		00175B5714ECA39100428452 /* PinchPadMainViewController.h */ = {isa = PBXFileReference; path = PinchPadMainViewController.h; sourceTree = "<group>"; };
+		00175B5814ECA39100428452 /* PinchPadMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchPadMainViewController.m; sourceTree = "<group>"; };
+		00175B5A14ECA39100428452 /* PinchPadFlipsideViewController.h */ = {isa = PBXFileReference; path = PinchPadFlipsideViewController.h; sourceTree = "<group>"; };
+		00175B5B14ECA39100428452 /* PinchPadFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchPadFlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00175B3614ECA39100428452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175B3E14ECA39100428452 /* UIKit.framework in Frameworks */,
+				00175B4014ECA39100428452 /* Foundation.framework in Frameworks */,
+				00175B4214ECA39100428452 /* CoreGraphics.framework in Frameworks */,
+				00175B4414ECA39100428452 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00175B2E14ECA39100428452 = {
+			isa = PBXGroup;
+			children = (
+				00175B4514ECA39100428452 /* PinchPad */,
+				00175B3C14ECA39100428452 /* Frameworks */,
+				00175B3A14ECA39100428452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00175B3A14ECA39100428452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00175B3914ECA39100428452 /* PinchPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00175B3C14ECA39100428452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00175B3D14ECA39100428452 /* UIKit.framework */,
+				00175B3F14ECA39100428452 /* Foundation.framework */,
+				00175B4114ECA39100428452 /* CoreGraphics.framework */,
+				00175B4314ECA39100428452 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00175B4514ECA39100428452 /* PinchPad */ = {
+			isa = PBXGroup;
+			children = (
+				00175B4E14ECA39100428452 /* PinchPadAppDelegate.h */,
+				00175B4F14ECA39100428452 /* PinchPadAppDelegate.m */,
+				00175B5114ECA39100428452 /* MainStoryboard.storyboard */,
+				00175B5714ECA39100428452 /* PinchPadMainViewController.h */,
+				00175B5814ECA39100428452 /* PinchPadMainViewController.m */,
+				00175B5A14ECA39100428452 /* PinchPadFlipsideViewController.h */,
+				00175B5B14ECA39100428452 /* PinchPadFlipsideViewController.m */,
+				00175B5414ECA39100428452 /* PinchPad.xcdatamodeld */,
+				00175B4614ECA39100428452 /* Supporting Files */,
+			);
+			path = PinchPad;
+			sourceTree = "<group>";
+		};
+		00175B4614ECA39100428452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00175B4714ECA39100428452 /* PinchPad-Info.plist */,
+				00175B4814ECA39100428452 /* InfoPlist.strings */,
+				00175B4B14ECA39100428452 /* main.m */,
+				00175B4D14ECA39100428452 /* PinchPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00175B3814ECA39100428452 /* PinchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00175B5F14ECA39100428452 /* Build configuration list for PBXNativeTarget "PinchPad" */;
+			buildPhases = (
+				00175B3514ECA39100428452 /* Sources */,
+				00175B3614ECA39100428452 /* Frameworks */,
+				00175B3714ECA39100428452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchPad;
+			productName = PinchPad;
+			productReference = 00175B3914ECA39100428452 /* PinchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00175B3014ECA39100428452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 00175B3314ECA39100428452 /* Build configuration list for PBXProject "PinchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00175B2E14ECA39100428452;
+			productRefGroup = 00175B3A14ECA39100428452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00175B3814ECA39100428452 /* PinchPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00175B3714ECA39100428452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175B4A14ECA39100428452 /* InfoPlist.strings in Resources */,
+				00175B5314ECA39100428452 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00175B3514ECA39100428452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175B4C14ECA39100428452 /* main.m in Sources */,
+				00175B5014ECA39100428452 /* PinchPadAppDelegate.m in Sources */,
+				00175B5614ECA39100428452 /* PinchPad.xcdatamodeld in Sources */,
+				00175B5914ECA39100428452 /* PinchPadMainViewController.m in Sources */,
+				00175B5C14ECA39100428452 /* PinchPadFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00175B4814ECA39100428452 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00175B4914ECA39100428452 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00175B5114ECA39100428452 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00175B5214ECA39100428452 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00175B5D14ECA39100428452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		00175B5E14ECA39100428452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00175B6014ECA39100428452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchPad/PinchPad-Prefix.pch";
+				INFOPLIST_FILE = "PinchPad/PinchPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00175B6114ECA39100428452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchPad/PinchPad-Prefix.pch";
+				INFOPLIST_FILE = "PinchPad/PinchPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00175B3314ECA39100428452 /* Build configuration list for PBXProject "PinchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175B5D14ECA39100428452 /* Debug */,
+				00175B5E14ECA39100428452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00175B5F14ECA39100428452 /* Build configuration list for PBXNativeTarget "PinchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175B6014ECA39100428452 /* Debug */,
+				00175B6114ECA39100428452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00175B5414ECA39100428452 /* PinchPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00175B5514ECA39100428452 /* PinchPad.xcdatamodel */,
+			);
+			currentVersion = 00175B5514ECA39100428452 /* PinchPad.xcdatamodel */;
+			path = PinchPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00175B3014ECA39100428452 /* Project object */;
+}
